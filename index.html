@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento via PIX</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        :root {
+            --branco-principal: #FFFFFF;
+            --verde-principal: #00BFAE; /* Verde típico do Ben 10 */
+            --cor-de-fundo: #000000; /* Fundo escuro para destacar o verde */
+            --fonte-principal: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--cor-de-fundo);
+            color: var(--branco-principal);
+            font-family: var(--fonte-principal);
+            font-size: 16px;
+            text-align: center;
+            padding: 2em;
+            margin: 0;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+            padding: 2em;
+            display: inline-block;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            color: var(--verde-principal);
+            font-size: 24px;
+            margin-bottom: 1em;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 1em;
+        }
+
+        .qr-code {
+            margin-top: 1em;
+        }
+
+        .qr-code img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pagamento via PIX</h1>
+        <p>Para concluir o pagamento, utilize a chave PIX abaixo:</p>
+        <p><strong>(18)998240250</strong></p> <!-- Substitua pela sua chave PIX -->
+        
+        <p>Ou escaneie o QR Code abaixo:</p>
+        <div class="qr-code">
+            <!-- Substitua o src pela URL do seu QR Code gerado -->
+            <img src="SEU_CODIGO_QR_CODE.png" alt="QR Code PIX">
+        </div>
+    </div>
+</body>
+
+</html>
